@@ -1,0 +1,36 @@
+#section2 {
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.buttons-menu {
+  width: 80%;
+  margin: 10vh auto;
+}
+
+.buttons-menu button {
+  padding: 10px;
+  background: rgb(202, 42, 202);
+  color: aliceblue;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.buttons-menu button:hover {
+  background: rgb(136, 22, 136);
+  padding: 15px;
+}
+
+.buttons-menu button:disabled {
+  background: rgb(121, 97, 121);
+}
+
+.buttons-menu button:disabled:hover {
+  padding: 10px;
+}

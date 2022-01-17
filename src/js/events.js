@@ -1,10 +1,10 @@
+import { Clock } from "./data/clock.js";
 import { hamburguer } from "./data/hamburger.js";
 
 const init = () => {
-  document.addEventListener("click", (e) => {
-    if (e.target.matches(".hamburger")) {
-      hamburguer(e);
-    }
+  document.addEventListener("DOMContentLoaded", (e) => {
+    hamburguer();
+    Clock();
   });
 };
 
